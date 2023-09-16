@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: SpringRESTClient3
+
+server:
+  port: 7090
+
+opentracing:
+  jaeger:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["health", "info", "prometheus"]
