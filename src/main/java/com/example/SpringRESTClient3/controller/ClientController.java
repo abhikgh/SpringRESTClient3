@@ -19,7 +19,7 @@ public class ClientController {
     private RestClientService restClientService;
 
 
-    // http://localhost:7090/orders/v1/getMovieDetails/100
+    // http://localhost:7091/orders/v1/getMovieDetails/100
     @GetMapping(value = "/getMovieDetails/{movieId}")
     public Movie getMovieDetails(
             @PathVariable("movieId") Integer movieId) {

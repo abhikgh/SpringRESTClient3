@@ -3,7 +3,7 @@ spring:
     name: SpringRESTClient3
 
 server:
-  port: 7090
+  port: 7091
 
 opentracing:
   jaeger:
